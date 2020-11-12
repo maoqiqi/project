@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="March,personal,website"/>
+    <meta name="description" content="March's personal website">
+    <meta name="author" content="March">
+    <link rel="icon" href="favicon.ico">
+    <title>March's personal website - Home</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<audio src="https://www.17sucai.com/preview/63045/2015-02-11/slideshow/audio/home.mp3" autoplay="autoplay" controls="controls" id="march-audio"></audio>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(window).load(function () {
+        let audio = $("#march-audio")[0];
+        audio.load();
+         audio.play();
+        // console.log(audio.play);
+        // console.log(audio);
+        // console.log(audio.paused);
+        // if (audio.paused) { //判读是否播放  
+        //     audio.paused = false;
+        //     audio.play(); //没有就播放 
+        // }
+    });
+</script>
+
+</body>
+</html>
